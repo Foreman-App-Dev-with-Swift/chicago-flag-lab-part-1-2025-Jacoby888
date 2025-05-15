@@ -43,10 +43,18 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Rectangle()
-                .foregroundColor(.orange)
-                .frame(width: 50, height: 50)
+                .foregroundColor(.blue)
+                .frame(width: 405.0, height
+                       : 70.0)
             Image("chicagoStar")
-                .foregroundColor(.gray)
+                .resizable()
+                .foregroundColor(.red)
+                .frame(width: 95, height: 130.0)
+                .padding(EdgeInsets())
+            Rectangle()
+                .foregroundColor(.blue)
+                .frame(width: 405.0, height: 70.0)
+            
         }
     }
 }
